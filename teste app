@@ -1,20 +1,11 @@
-
-O aplicativo AgroTarefas é complexo, com múltiplas funcionalidades interativas, mapas dinâmicos, gerenciamento de tarefas, usuários e permissões. Como padrão, para frontend entregarei um único arquivo HTML com CSS e JavaScript inline, proporcionando uma interface funcional para cadastro de tarefas, visualização e atualização de progresso por quadras, histórico simplificado, e controle básico de usuários e permissões.
-
-Para o mapa das quadras com visual de progresso, usarei SVG simples com áreas clicáveis e cores que mudam conforme o progresso.
-
-Não será possível implementar backend ou persistência real aqui; para simular persistência e usuários diferentes, armazenarei os dados em `localStorage`.
-
-Vou estruturar o código em seções:
+Estruturar o código em seções:
 - Interface para cadastro de tarefas com seleção de quadras e responsáveis;
 - Visualização do mapa das quadras com cores de progresso e clique para atualizar progresso;
 - Lista de tarefas com histórico simplificado;
 - Controle simples de usuários/permissões (admin, supervisor, colaborador) para demonstrar diferenças de acesso;
 - Tudo estilizado com CSS moderno para melhor usabilidade e visual interessante.
 
-Assim entrego um protótipo funcional frontend para você testar e evoluir, podendo depois integrar backend real se desejar.
-
-Vou prosseguir criando o arquivo HTML completo com todas essas funcionalidades inline.
+Arquivo HTML completo com todas essas funcionalidades inline.
 
 
 `AgroTarefas.html`
